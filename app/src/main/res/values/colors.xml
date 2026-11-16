@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Palette -->
+    <color name="primary">#7C4DFF</color>
+    <color name="primary_variant">#651FFF</color>
+    <color name="secondary">#00E5FF</color>
+    <color name="background_light">#F5F7FB</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#1E293B</color>
+
+    <!-- Glass Keyboard - Light Glass Theme -->
+    <color name="glass_kb_bg_light">#DDEEF2F8</color>
+    <color name="glass_kb_border_light">#55FFFFFF</color>
+    <color name="glass_key_bg_light">#EEFFFFFF</color>
+    <color name="glass_key_bg_pressed_light">#CCD0DBE5</color>
+    <color name="glass_key_special_light">#DDE3EAF5</color>
+    <color name="glass_key_text_light">#0F172A</color>
+    <color name="glass_key_subtext_light">#64748B</color>
+
+    <!-- Glass Keyboard - Dark Glass Theme (Default) -->
+    <color name="glass_kb_bg_dark">#D810141E</color>
+    <color name="glass_kb_border_dark">#26FFFFFF</color>
+    <color name="glass_key_bg_dark">#222A3B</color>
+    <color name="glass_key_bg_pressed_dark">#3D4A66</color>
+    <color name="glass_key_special_dark">#181F2C</color>
+    <color name="glass_key_text_dark">#F8FAFC</color>
+    <color name="glass_key_subtext_dark">#94A3B8</color>
+
+    <!-- Glass Keyboard - OLED Pure Black Glass -->
+    <color name="glass_kb_bg_oled">#FA000000</color>
+    <color name="glass_kb_border_oled">#1AFFFFFF</color>
+    <color name="glass_key_bg_oled">#121212</color>
+    <color name="glass_key_bg_pressed_oled">#2A2A2A</color>
+    <color name="glass_key_special_oled">#0A0A0A</color>
+    <color name="glass_key_text_oled">#FFFFFF</color>
+    <color name="glass_key_subtext_oled">#888888</color>
+
+    <!-- Connection Indicator Lights -->
+    <color name="status_green">#00E676</color>
+    <color name="status_amber">#FFB300</color>
+    <color name="status_red">#FF5252</color>
+    <color name="status_disabled">#757575</color>
+
+    <!-- Accent & Highlights -->
+    <color name="ai_accent">#8A2BE2</color>
+    <color name="ai_accent_glow">#408A2BE2</color>
+    <color name="code_accent">#00B4D8</color>
+    <color name="diff_removed_bg">#33FF5252</color>
+    <color name="diff_added_bg">#3300E676</color>
+</resources>

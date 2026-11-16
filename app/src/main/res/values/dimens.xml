@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_default_height">270dp</dimen>
+    <dimen name="keyboard_key_height">46dp</dimen>
+    <dimen name="keyboard_key_margin">3dp</dimen>
+    <dimen name="keyboard_key_corner_radius">8dp</dimen>
+    <dimen name="keyboard_text_size_normal">20sp</dimen>
+    <dimen name="keyboard_text_size_sub">11sp</dimen>
+    <dimen name="toolbar_height">42dp</dimen>
+    <dimen name="suggestion_strip_height">38dp</dimen>
+    <dimen name="ai_panel_height">340dp</dimen>
+    <dimen name="status_indicator_size">10dp</dimen>
+    <dimen name="min_touch_target">48dp</dimen>
+</resources>

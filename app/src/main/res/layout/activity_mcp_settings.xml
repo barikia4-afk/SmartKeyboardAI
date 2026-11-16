@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D111A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_mcp_settings"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mcp_explanation"
+            android:textColor="#94A3B8"
+            android:textSize="13sp"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Add Server Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/key_glass_selector_dark"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add / Edit MCP Server"
+                android:textColor="#00E5FF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etMcpName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="#151D2C"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#54657E"
+                android:hint="@string/mcp_server_name"
+                android:paddingHorizontal="12dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etMcpUrl"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="#151D2C"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#54657E"
+                android:hint="@string/mcp_server_url"
+                android:paddingHorizontal="12dp"
+                android:inputType="textUri" />
+
+            <EditText
+                android:id="@+id/etMcpAuth"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="#151D2C"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#54657E"
+                android:hint="@string/mcp_auth_header"
+                android:paddingHorizontal="12dp"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/cbMcpConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/mcp_confirm_required"
+                android:textColor="#FFFFFF"
+                android:checked="true"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/btnSaveMcpServer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Save Server"
+                android:backgroundTint="#00B4D8"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Configured Servers List Container -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configured MCP Servers"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/containerMcpServers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</ScrollView>
